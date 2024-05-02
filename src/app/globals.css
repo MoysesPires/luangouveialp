@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.animation-hover{
+    animation: hover 0.3s ease-in-out;
+}
+
+@keyframes hover {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 4px;
+    }
+}
+
+.active-animation{
+    animation: activeMenuButton 0.3s ease-in-out;
+}
+
+@keyframes activeMenuButton {
+    0% {
+        height: 24px;
+    }
+    100% {
+        height: 32px;
+    }
+}
