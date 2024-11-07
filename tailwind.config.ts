@@ -9,14 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        main: "url('/img-bg.png')"
+        main: "url('/img-bg.svg')"
       },
       mixBlendModes: {
         overlay: "overlay",
       },
       colors: {
         base: {
-          black: "#253D4E",
+          black: "#09090B",
           white: "#ffffff",
           gray: "#ADADAD",
         },

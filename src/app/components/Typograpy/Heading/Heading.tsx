@@ -3,7 +3,7 @@ import { tv, type VariantProps } from "tailwind-variants";
 import { useTailwindMerge } from "@/hooks/useTailwindMerge";
 
 const heading = tv({
-  base: "flex items-center",
+  base: "flex items-center text-base-white",
   defaultVariants: {
     type: "h1",
   },
